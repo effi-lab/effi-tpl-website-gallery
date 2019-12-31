@@ -1,10 +1,10 @@
-# {{ title }}
+# {{ site.title }}
 
-{{ subtitle }}
+{{ site.subtitle }}
 
 # Podcasts
 
-{{#podcasts}}
+{{#content.podcasts}}
   <li>
     {{#name}}
       <p><strong>{{name}}</strong></p>
@@ -13,4 +13,4 @@
       <p>{{desc}}</p>
     {{/desc}}
   </li>
-{{/podcasts}}
+{{/content.podcasts}}
